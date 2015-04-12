@@ -1,0 +1,5 @@
+C:\Users\Dan\Desktop\projects\LowLevelMouseHook\bin\Debug\MouseInputManager.dll
+C:\Users\Dan\Desktop\projects\LowLevelMouseHook\bin\Debug\MouseInputManager.pdb
+C:\Users\Dan\Desktop\projects\LowLevelMouseHook\obj\Debug\MouseInputManager.csprojResolveAssemblyReference.cache
+C:\Users\Dan\Desktop\projects\LowLevelMouseHook\obj\Debug\MouseInputManager.dll
+C:\Users\Dan\Desktop\projects\LowLevelMouseHook\obj\Debug\MouseInputManager.pdb
