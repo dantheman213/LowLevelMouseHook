@@ -1,7 +1,7 @@
 # LowLevelMouseHook
 C# library for hooking into global windows mouse movements
 
-ABOUT
+### ABOUT
 
 I wrote this DLL library because I couldn't find any good online resources for how to capture global
 mouse position outside of the Windows Form model. I realized I could use a low level Win32 API hook
@@ -11,7 +11,7 @@ saw had issues with their API or method that was no longer working with Visual S
 it wrong.
 
 
-USAGE
+### USAGE
 
 Either build the project by itself and include the DLL library as a reference to your main project
 
@@ -23,8 +23,9 @@ need to include a reference to the other project from your primary project.
 (You right-click the reference item under the main project and click "Add Reference". Should be under the projects tab)
 
 
-SAMPLE CODE
+###SAMPLE CODE
 
+```c#
 using MouseInputManager;
 
 int main() {
@@ -39,3 +40,4 @@ private void mouseManager_MouseMoved(object sender, MouseEventArgs e) {
 	mousePosition.X = e.X;
 	mousePosition.Y = e.Y;
 }
+```
